@@ -18,7 +18,12 @@ export default function TopBar({ availability }: TopBarProps) {
   useEffect(() => {
     const updateTime = () => {
       const now = new Date()
-      const timeString = now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })
+      const timeString = now.toLocaleTimeString("en-GB", {
+        timeZone: "Europe/Riga",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+      })
       setCurrentTime(timeString)
     }
 
@@ -57,7 +62,7 @@ export default function TopBar({ availability }: TopBarProps) {
       <div className="flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <span className="text-sm font-medium inter">Riga, Latvia</span>
-          <span className="text-sm font-light hidden md:inline inter">(GMT+3)</span>
+          <span className="text-sm font-light hidden md:inline inter">(GMT+2)</span>
           <span className="text-sm inter">{currentTime}</span>
         </div>
 
@@ -69,4 +74,3 @@ export default function TopBar({ availability }: TopBarProps) {
     </header>
   )
 }
-
