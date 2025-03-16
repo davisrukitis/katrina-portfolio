@@ -10,9 +10,9 @@ interface Project {
   name: string
   description: string
   year: string
-  images: string[] // Changed from single image to array of images
-  link?: string // Optional link property
-  additionalInfo?: string // Added for customizable additional information
+  images: string[]
+  link?: string
+  additionalInfo?: string
 }
 
 interface ProjectModalProps {
@@ -39,8 +39,11 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
     // Add resize listener
     window.addEventListener("resize", checkMobile)
 
+    document.body.style.overflow = "hidden"
+
     return () => {
       window.removeEventListener("resize", checkMobile)
+      document.body.style.overflow = "auto"
     }
   }, [])
 
@@ -55,9 +58,10 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
   }
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-[550]">
+    <div className="fixed inset-0 flex items-center justify-center z-[550] bg-black/50" onClick={onClose}>
       <div
-        className={`bg-white ${isMobile ? "rounded-none inset-0 fixed" : "rounded-lg max-h-[90vh]"} shadow-xl max-w-3xl w-full overflow-auto`}
+        className={`bg-white ${isMobile ? "rounded-none inset-0 fixed" : "rounded-lg max-h-[90vh]"} shadow-xl max-w-4xl w-full overflow-auto`}
+        onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-between items-center p-4 border-b">
           <h3 className="text-xl font-bold instrument-serif italic">{project.name}</h3>
@@ -132,4 +136,3 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
     </div>
   )
 }
-
