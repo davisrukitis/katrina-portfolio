@@ -41,7 +41,6 @@ const portfolioData: PortfolioSectionData[] = [
           "/teatris2.webp",
           "/teatris3.webp",
         ],
-        link: "https://example.com/cafe-botanique",
         additionalInfo:
           "For my final project at the Riga School of Design and Art, I created a new visual identity for a theater in Valmiera, Latvia. Based on extensive research, the project included a brand book with thorough graphic design examples like logo variations, layouts, and other visual applications, ensuring a cohesive yet flexible brand presence. The identity was designed to enhance the theater’s communication across various platforms while maintaining a strong visual character.",
       },
@@ -93,7 +92,7 @@ const portfolioData: PortfolioSectionData[] = [
       {
         id: 9,
         name: "Ex-Libris Stamp Design",
-        description: "A side-project for my dad",
+        description: "A project for my dad",
         year: "2022",
         images: ["ex-libris.webp"],
         additionalInfo:
@@ -131,7 +130,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Reflecting on Myself as a Technical Issue",
         description: "Personal Project",
         year: "2022",
-        images: ["/me1.webp", "/me2.webp"],
+        images: ["/me2.webp", "/me1.webp"],
         additionalInfo:
           "This deeply personal project explores my identity through the lens of a technical issue. I view my mind as something that correlates with the external world, where formal digital communication often becomes a facade, shaped by what appears most aesthetic. My thoughts grow deeper, and I try to present a controlled version of myself, suppressing emotions and maintaining composure. However, as experience shows, it’s not always successful. I am constantly navigating this balance — just trying to find the right button to press.",
       },
@@ -170,7 +169,8 @@ const portfolioData: PortfolioSectionData[] = [
         name: "3D Still Life",
         description: "Personal Project",
         year: "2023",
-        images: ["/placeholder.svg"],
+        images: ["/3d-still-life.webp"],
+        link: "https://youtu.be/75ZtEBgq5og",
         additionalInfo:
           "Inspired by traditional still life painting, this 3D rendering project explores composition, texture, and lighting in a digital space. I created highly detailed models with realistic materials and lighting to achieve a photorealistic quality with subtle artistic interpretation.",
       },
@@ -215,18 +215,9 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Little basement",
         description: "Personal Project",
         year: "2024",
-        images: ["/placeholder.svg"],
+        images: ["/little-basement.webp"],
         additionalInfo:
-          "This atmospheric VR experience places users in a mysterious basement environment that gradually reveals its secrets through exploration and interaction. The project focuses on creating a sense of unease through subtle environmental storytelling, lighting, and sound design.",
-      },
-      {
-        id: 21,
-        name: "Self scan",
-        description: "Personal Project",
-        year: "2024",
-        images: ["/placeholder.svg"],
-        additionalInfo:
-          "This AR project uses 3D scanning technology to create a digital avatar of the user, which can then be manipulated and placed in various virtual environments. The project explores themes of digital identity and self-representation in virtual spaces.",
+          "This augmented reality (AR) environment invites the user to walk on jam jars, symbolizing a space that reflects the transformation of my city flat during autumn. As the season changes, the flat turns into a basement filled with jars, potatoes, and goods from my parents. The AR experience immerses the viewer in this personal memory, evoking the warmth and nostalgia of harvest time while exploring the idea of space and family through virtual interaction. The jam jars serve as a playful yet poignant representation of the transition from the urban to the domestic, capturing the essence of autumn in a unique way.",
       },
     ],
   },
@@ -237,7 +228,7 @@ const portfolioData: PortfolioSectionData[] = [
       "This section offers a glimpse into my photography projects, spanning everything from carefully styled concept shoots to energetic event photography. My work balances bold, creative direction with the ability to capture spontaneous, genuine moments. Whether working in a controlled studio setting or documenting live events, I aim to blend artistry with precision, ensuring each shot reflects its unique atmosphere. This adaptability allows me to tailor my approach to each project, resulting in visuals that are both memorable and impactful.",
     projects: [
       {
-        id: 22,
+        id: 24,
         name: "Getting ready",
         description: "Personal Project",
         year: "2022",
@@ -252,14 +243,14 @@ const portfolioData: PortfolioSectionData[] = [
         year: "2023",
         images: ["/water-muse1.webp", "/water-muse2.webp"],
         additionalInfo:
-          "'The Water Muse' captures the fluidity of light as it dances across the human form. The project explores movement and transformation through the lens of light, evoking the delicate and ever-changing nature of water without its physical presence."
+          "'The Water Muse captures the fluidity of light as it dances across the human form. The project explores movement and transformation through the lens of light, evoking the delicate and ever-changing nature of water without its physical presence."
       },
       {
-        id: 24,
+        id: 22,
         name: "Studio photography portrait series",
         description: "Personal Project",
         year: "2023",
-        images: ["/studio1.webp", "/studio2.webp", "/studio3.webp", "/studio4.webp", "/studio5.webp", "/studio6.webp"],
+        images: ["/studio-1.webp", "/studio2.webp", "/studio3.webp", "/studio4.webp", "/studio5.webp", "/studio6.webp"],
         additionalInfo:
           "A studio photography portrait series exploring light, shadow, and expression."
       }
@@ -279,7 +270,7 @@ const portfolioData: PortfolioSectionData[] = [
         images: ["safe-driving.webp"],
         link: "https://youtu.be/1e6VV_aBI0c",
         additionalInfo:
-          "This experimental short film explores the psychological experience of driving through abstract visuals and immersive sound design. Using a combination of in-camera techniques and subtle post-production effects, the piece creates a hypnotic rhythm that mimics the meditative state often experienced during long drives.",
+          "This personal project explores the inner conflict of wanting to be everywhere at once, constantly moving forward without taking a moment to pause. The video, created and edited by me, focuses on movement as a central theme, reflecting the restless drive and uncertainty of constantly pushing ahead. The sound design, also crafted by me, complements the visuals, intensifying the feeling of being in perpetual motion.",
       },
       {
         id: 26,
@@ -289,16 +280,7 @@ const portfolioData: PortfolioSectionData[] = [
         images: ["baltic-sea.webp"],
         link: "https://youtu.be/KY9xUp_2fhU",
         additionalInfo:
-          "This audio-visual piece captures the changing moods and textures of the Baltic Sea through different seasons and weather conditions. The project combines time-lapse photography, underwater footage, and field recordings to create an immersive portrait of this distinctive body of water and its relationship to the surrounding landscape.",
-      },
-      {
-        id: 27,
-        name: "Forest dream",
-        description: "Personal Project",
-        year: "2022",
-        images: ["/placeholder.svg"],
-        additionalInfo:
-          "This dreamlike video installation creates an immersive forest environment through projected imagery and spatial sound design. The piece transforms the exhibition space into a surreal woodland, inviting viewers to experience the forest as both a physical place and a psychological landscape.",
+          "This video project focuses on the ethereal beauty of shiny water and sand patterns, presented in black and white to create a dreamlike atmosphere. The delicate interplay of light and texture evokes a sense of tranquility and intrigue. The sound design, crafted by me, features bells and sparkles, enhancing the sensual experience of the visuals. The combination of these elements invites the viewer to immerse themselves in the calming and reflective nature of the project.",
       },
     ],
   },
