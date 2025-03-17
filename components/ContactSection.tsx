@@ -8,7 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 export default function ContactSection() {
   const [copied, setCopied] = useState(false)
   const { toast } = useToast()
-  const email = "katrina.puke@example.com"
+  const email = "pukekatrina@gmail.com"
   const [isToastVisible, setIsToastVisible] = useState(false)
 
   const copyEmail = () => {
