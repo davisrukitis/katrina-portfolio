@@ -57,19 +57,16 @@ export default function Footer({ availability, onPukeClick }: FooterProps) {
           <p className="text-xl md:text-2xl mt-8 ml-1 inter">[ˈput͡ʃe]</p>
         </div>
 
-        {/* Mobile layout: social icons at top, copyright at bottom */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Social icons - on mobile they appear first and aligned left */}
           <div className="flex justify-start space-x-4 order-1 md:order-3 md:justify-end">
-            <Link href="https://linkedin.com" target="_blank" className="p-2">
+            <Link href="https://www.linkedin.com/in/katrinapuke/" target="_blank" className="p-2">
               <Linkedin className="h-5 w-5" />
             </Link>
-            <Link href="https://instagram.com" target="_blank" className="p-2">
+            <Link href="https://www.instagram.com/pukekatrina/" target="_blank" className="p-2">
               <Instagram className="h-5 w-5" />
             </Link>
           </div>
 
-          {/* Availability status - in the middle on desktop */}
           <div className="flex items-center justify-start md:justify-center order-2">
             <div className="flex items-center space-x-3">
               <div className={`h-2 w-2 rounded-full ${getAvailabilityColor()}`} />
@@ -77,7 +74,6 @@ export default function Footer({ availability, onPukeClick }: FooterProps) {
             </div>
           </div>
 
-          {/* Copyright - on mobile it appears last */}
           <div className="text-left order-3 md:order-1">
             <p className="text-sm inter">© {currentYear} Katrīna Puķe.</p>
           </div>
