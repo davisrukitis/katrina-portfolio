@@ -49,7 +49,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "SIMO Pizzeria",
         description: "Graphic Design and Visuals",
         year: "2022",
-        images: ["/simo1.webp", "/simo2.webp", "/simo3.webp"],
+        images: ["/simo1.webp"],
         additionalInfo:
           "I created a cohesive visual identity for SIMO Pizzeria, drawing inspiration from the vibrant colors of Moroccan tiles. This included menu design, layout development, and social media content, ensuring a consistent and engaging brand presence across various platforms.",
       },
@@ -76,7 +76,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Tallinas Street Creative Quarter",
         description: "Social Media and Graphic Design",
         year: "2024–2025",
-        images: ["/kvartals1.webp", "/kvartals2.webp", "/kvartals3.webp", "/kvartals4.webp", "/kvartals5.webp"],
+        images: ["/kvartals2.webp"],
         additionalInfo:
           "I created various graphic design visuals for both social media and print. The focus was on adapting and developing the brand’s existing visual identity to ensure it remained true to its core values while staying modern and relevant in today’s digital landscape. The designs were crafted to enhance the quarter's presence and engage its audience across multiple platforms.",
       },
@@ -85,7 +85,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Latvian Pavilion – Venice Biennale",
         description: "Informational Signage Design for Latvian Pavilion",
         year: "2023",
-        images: ["/tcl1.webp", "/tcl2.webp", "/tcl3.webp"],
+        images: ["/tcl.webp"],
         additionalInfo:
           "During my internship at the Venice Biennale, I worked on designing informational signage for the Latvian Pavilion. The design process was guided by the pavilion’s existing visual identity, ensuring consistency with the established guidelines while effectively communicating key information to visitors in a clear and engaging manner.",
       },
@@ -323,7 +323,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "10x10x10x10",
         description: "Screen-print",
         year: "2024",
-        images: ["/placeholder.svg"],
+        images: ["/10x10.webp"],
         additionalInfo:
           "This systematic print project explores mathematical patterns through screen printing. Following a strict set of rules based on a 10x10 grid, I created variations that demonstrate how simple numerical constraints can generate complex and visually engaging compositions.",
       },
