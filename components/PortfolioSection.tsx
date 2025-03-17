@@ -233,7 +233,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Studio photography portrait series",
         description: "Personal Project",
         year: "2023",
-        images: ["/studio-1.webp", "/studio2.webp", "/studio3.webp", "/studio4.webp", "/studio5.webp", "/studio6.webp"],
+        images: ["/studio-1.webp", "/studio2.webp", "/studio3.webp"],
         additionalInfo:
           "A studio photography portrait series exploring light, shadow, and expression."
       },
@@ -242,7 +242,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Getting ready",
         description: "Personal Project",
         year: "2022",
-        images: ["/gettig-ready1.webp", "/gettig-ready2.webp"],
+        images: ["/getting-ready.webp"],
         additionalInfo:
           "Through details, motion, and light, the images reflect the excitement, small rituals, and fleeting moments before stepping into the night."
       },
@@ -251,7 +251,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "The water muse",
         description: "Personal Project",
         year: "2023",
-        images: ["/water-muse1.webp", "/water-muse2.webp"],
+        images: ["/water-muse.webp"],
         additionalInfo:
           "'The Water Muse captures the fluidity of light as it dances across the human form. The project explores movement and transformation through the lens of light, evoking the delicate and ever-changing nature of water without its physical presence."
       },
