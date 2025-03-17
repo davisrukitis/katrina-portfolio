@@ -79,7 +79,7 @@ export default function TutorialPopup() {
         ) : (
           <>
             Press <kbd className="px-1.5 py-0.5 bg-gray-100 rounded border border-gray-300 font-mono text-xs">P</kbd> or
-            tap Puķe—yes, literally!
+            tap on Puķe!
           </>
         )}
       </p>
