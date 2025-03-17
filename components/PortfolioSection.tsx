@@ -180,6 +180,7 @@ const portfolioData: PortfolioSectionData[] = [
         description: "Personal Project",
         year: "2024",
         images: ["pushed-idea.webp"],
+        link: "https://youtu.be/75ZtEBgq5og",
         additionalInfo:
           "This experimental project combines live video footage with 3D animation elements to create a mixed-reality narrative. Using camera tracking and compositing techniques, I integrated abstract 3D elements that interact with the physical environment in unexpected ways.",
       },
@@ -228,7 +229,16 @@ const portfolioData: PortfolioSectionData[] = [
       "This section offers a glimpse into my photography projects, spanning everything from carefully styled concept shoots to energetic event photography. My work balances bold, creative direction with the ability to capture spontaneous, genuine moments. Whether working in a controlled studio setting or documenting live events, I aim to blend artistry with precision, ensuring each shot reflects its unique atmosphere. This adaptability allows me to tailor my approach to each project, resulting in visuals that are both memorable and impactful.",
     projects: [
       {
-        id: 24,
+        id: 22,
+        name: "Studio photography portrait series",
+        description: "Personal Project",
+        year: "2023",
+        images: ["/studio-1.webp", "/studio2.webp", "/studio3.webp", "/studio4.webp", "/studio5.webp", "/studio6.webp"],
+        additionalInfo:
+          "A studio photography portrait series exploring light, shadow, and expression."
+      },
+      {
+        id: 23,
         name: "Getting ready",
         description: "Personal Project",
         year: "2022",
@@ -237,7 +247,7 @@ const portfolioData: PortfolioSectionData[] = [
           "Through details, motion, and light, the images reflect the excitement, small rituals, and fleeting moments before stepping into the night."
       },
       {
-        id: 23,
+        id: 24,
         name: "The water muse",
         description: "Personal Project",
         year: "2023",
@@ -245,15 +255,6 @@ const portfolioData: PortfolioSectionData[] = [
         additionalInfo:
           "'The Water Muse captures the fluidity of light as it dances across the human form. The project explores movement and transformation through the lens of light, evoking the delicate and ever-changing nature of water without its physical presence."
       },
-      {
-        id: 22,
-        name: "Studio photography portrait series",
-        description: "Personal Project",
-        year: "2023",
-        images: ["/studio-1.webp", "/studio2.webp", "/studio3.webp", "/studio4.webp", "/studio5.webp", "/studio6.webp"],
-        additionalInfo:
-          "A studio photography portrait series exploring light, shadow, and expression."
-      }
     ],
   },
   {
