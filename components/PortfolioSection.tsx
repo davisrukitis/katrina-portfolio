@@ -11,9 +11,9 @@ interface Project {
   name: string;
   description: string;
   year: string;
-  images: string[]; // Changed from single image to array of images
-  link?: string; // Optional link property
-  additionalInfo?: string; // Added for customizable additional information
+  images: string[];
+  link?: string;
+  additionalInfo?: string;
 }
 
 // Define section type
