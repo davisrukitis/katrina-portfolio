@@ -58,7 +58,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Rīga Stradiņš University Stomatology SZP",
         description: "Visual Identity and Graphic Design",
         year: "2023",
-        images: ["/rsu1.webp", "/rsu2.webp", "/rsu3.webp"],
+        images: ["/rsu2.webp", "/rsu1.webp", "/rsu3.webp"],
         additionalInfo:
           "I developed a visual identity and graphic design for the social media platforms of Rīga Stradiņš University Stomatology SZP, drawing inspiration from the intricate details of teeth and X-rays. The design aimed to reflect the precision and professionalism of the dental field, creating a modern and engaging online presence.",
       },
@@ -67,7 +67,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Swisscom, Baltic Brand Forum, CSDD, Ergo",
         description: "Social Media Design for Brands",
         year: "2023",
-        images: ["/element1.webp", "/element2.webp", "/element3.webp"],
+        images: ["/element2.webp", "/element1.webp", "/element3.webp"],
         additionalInfo:
           "I created social media visuals for brands like Swisscom, Baltic Brand Forum, the Latvian Road Traffic Safety Directorate (CSDD), and Ergo Group. The designs were adapted to align with each brand’s existing guidelines, ensuring consistency with their established visual identity while enhancing engagement across digital platforms.",
       },
@@ -170,7 +170,6 @@ const portfolioData: PortfolioSectionData[] = [
         description: "Personal Project",
         year: "2023",
         images: ["/3d-still-life.webp"],
-        link: "https://youtu.be/75ZtEBgq5og",
         additionalInfo:
           "Inspired by traditional still life painting, this 3D rendering project explores composition, texture, and lighting in a digital space. I created highly detailed models with realistic materials and lighting to achieve a photorealistic quality with subtle artistic interpretation.",
       },
@@ -213,12 +212,12 @@ const portfolioData: PortfolioSectionData[] = [
       },
       {
         id: 20,
-        name: "Little basement",
+        name: "The link between",
         description: "Personal Project",
         year: "2024",
-        images: ["/little-basement.webp"],
+        images: ["/the-link-between.webp"],
         additionalInfo:
-          "This augmented reality (AR) environment invites the user to walk on jam jars, symbolizing a space that reflects the transformation of my city flat during autumn. As the season changes, the flat turns into a basement filled with jars, potatoes, and goods from my parents. The AR experience immerses the viewer in this personal memory, evoking the warmth and nostalgia of harvest time while exploring the idea of space and family through virtual interaction. The jam jars serve as a playful yet poignant representation of the transition from the urban to the domestic, capturing the essence of autumn in a unique way.",
+          "This AR artwork revives the mythical essence of Burtnieku Ezers, a lake steeped in Latvian folklore, where legends speak of a sunken castle and ancient secrets beneath its waters. Inspired by Zalktis, the sacred grass snake symbolizing strenght, transformation, and the link between the physical and spiritual worlds, the piece is accessible only at the lake itself. By embedding this digital layer into the landscape, the work invites viewers to reconnect with ancestral myths and the unseen forces of nature, blending the real with the mystical.",
       },
     ],
   },
@@ -314,7 +313,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Yellow press",
         description: "Screen-print",
         year: "2024",
-        images: ["/yellow-press.webp"],
+        images: ["/dzeltena-prese.webp"],
         additionalInfo:
           "This screen print series comments on media sensationalism through appropriated newspaper headlines and imagery. Using a limited palette dominated by yellow (referencing the historical term 'yellow journalism'), the prints combine text and image in compositions that highlight the manipulative nature of tabloid reporting.",
       },
