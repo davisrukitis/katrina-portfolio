@@ -38,7 +38,7 @@ export default function AboutSection() {
 
           <div className="flex space-x-4 mt-8">
             <Link
-              href="/cv.pdf"
+              href="/Katrina-P-CV.pdf"
               target="_blank"
               className="px-4 py-2 border border-black rounded-md hover:bg-black hover:text-white transition-colors inter"
             >
