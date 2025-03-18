@@ -76,7 +76,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Tallinas Street Creative Quarter",
         description: "Social Media and Graphic Design",
         year: "2024–2025",
-        images: ["/kvartals-2.webp", "/kvartals1.webp"],
+        images: ["/kvartals2.webp", "/kvartals-1.webp"],
         additionalInfo:
           "I created various graphic design visuals for both social media and print. The focus was on adapting and developing the brand’s existing visual identity to ensure it remained true to its core values while staying modern and relevant in today’s digital landscape. The designs were crafted to enhance the quarter's presence and engage its audience across multiple platforms.",
       },
