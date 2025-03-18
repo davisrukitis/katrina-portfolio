@@ -49,7 +49,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "SIMO Pizzeria",
         description: "Graphic Design and Visuals",
         year: "2022",
-        images: ["/simo1.webp"],
+        images: ["/simo1.webp", "/simo2.webp", "/simo3.webp"],
         additionalInfo:
           "I created a cohesive visual identity for SIMO Pizzeria, drawing inspiration from the vibrant colors of Moroccan tiles. This included menu design, layout development, and social media content, ensuring a consistent and engaging brand presence across various platforms.",
       },
@@ -76,7 +76,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Tallinas Street Creative Quarter",
         description: "Social Media and Graphic Design",
         year: "2024–2025",
-        images: ["/kvartals2.webp"],
+        images: ["/kvartals2.webp", "/kvartals1.webp"],
         additionalInfo:
           "I created various graphic design visuals for both social media and print. The focus was on adapting and developing the brand’s existing visual identity to ensure it remained true to its core values while staying modern and relevant in today’s digital landscape. The designs were crafted to enhance the quarter's presence and engage its audience across multiple platforms.",
       },
@@ -94,7 +94,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Ex-Libris Stamp Design",
         description: "A project for my dad",
         year: "2022",
-        images: ["ex-libris.webp"],
+        images: ["/ex-libris.webp"],
         additionalInfo:
           "As a personal and meaningful project, I designed a custom ex-libris stamp for my dad, a passionate book reader. The design features a hand-drawn illustration, creating a unique and heartfelt mark for his book collection.",
       },
@@ -148,7 +148,7 @@ const portfolioData: PortfolioSectionData[] = [
         description: "Personal Project",
         year: "2024",
         images: [
-          "3d-abstract.webp",
+          "/3d-abstract.webp",
         ],
         link: "https://youtu.be/V4nLXzO-t6M",
         additionalInfo:
@@ -159,7 +159,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Dancing Human Figure Animation",
         description: "Personal Project",
         year: "2023",
-        images: ["human-dancing.webp"],
+        images: ["/human-dancing.webp"],
         link: "https://youtu.be/fKa2_LguhMQ",
         additionalInfo:
           "This animation project focused on capturing the fluid movement of dance through 3D character animation. I explored motion capture techniques combined with manual keyframing to achieve natural, expressive movement that conveys emotion through body language.",
@@ -178,7 +178,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Pushed Idea – Video Combined with 3D Animation",
         description: "Personal Project",
         year: "2024",
-        images: ["pushed-idea.webp"],
+        images: ["/pushed-idea.webp"],
         link: "https://youtu.be/75ZtEBgq5og",
         additionalInfo:
           "This experimental project combines live video footage with 3D animation elements to create a mixed-reality narrative. Using camera tracking and compositing techniques, I integrated abstract 3D elements that interact with the physical environment in unexpected ways.",
@@ -188,7 +188,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "3D Modeled and 3D Printed Earrings",
         description: "Personal Project",
         year: "2023",
-        images: ["3d-earrings1.webp"],
+        images: ["/3d-earrings1.webp"],
         additionalInfo:
           "This project bridges digital design and physical craftsmanship through 3D printing technology. I designed a collection of geometrically complex earrings that would be impossible to create with traditional jewelry-making techniques, then produced them using biodegradable PLA material.",
       },
@@ -205,7 +205,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "The Lonely Princess World",
         description: "Personal Project",
         year: "2024",
-        images: ["princess-world.webp"],
+        images: ["/princess-world.webp"],
         link: "https://youtu.be/ziaHUAMBmwE",
         additionalInfo:
           "This VR experience tells the story of a lonely princess through an interactive fairy tale environment. Users can explore a surreal castle and its surroundings, discovering narrative elements through interaction with objects and environments. The project was built in Unity with custom 3D assets and atmospheric sound design.",
@@ -216,6 +216,7 @@ const portfolioData: PortfolioSectionData[] = [
         description: "Personal Project",
         year: "2024",
         images: ["/the-link-between.webp"],
+        link: "https://youtu.be/JLQCsbgGHqs",
         additionalInfo:
           "This AR artwork revives the mythical essence of Burtnieku Ezers, a lake steeped in Latvian folklore, where legends speak of a sunken castle and ancient secrets beneath its waters. Inspired by Zalktis, the sacred grass snake symbolizing strenght, transformation, and the link between the physical and spiritual worlds, the piece is accessible only at the lake itself. By embedding this digital layer into the landscape, the work invites viewers to reconnect with ancestral myths and the unseen forces of nature, blending the real with the mystical.",
       },
@@ -267,7 +268,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Safe driving",
         description: "Personal Project",
         year: "2024",
-        images: ["safe-driving.webp"],
+        images: ["/safe-driving.webp"],
         link: "https://youtu.be/1e6VV_aBI0c",
         additionalInfo:
           "This personal project explores the inner conflict of wanting to be everywhere at once, constantly moving forward without taking a moment to pause. The video, created and edited by me, focuses on movement as a central theme, reflecting the restless drive and uncertainty of constantly pushing ahead. The sound design, also crafted by me, complements the visuals, intensifying the feeling of being in perpetual motion.",
@@ -277,7 +278,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Baltic sea",
         description: "Personal Project",
         year: "2023",
-        images: ["baltic-sea.webp"],
+        images: ["/baltic-sea.webp"],
         link: "https://youtu.be/KY9xUp_2fhU",
         additionalInfo:
           "This video project focuses on the ethereal beauty of shiny water and sand patterns, presented in black and white to create a dreamlike atmosphere. The delicate interplay of light and texture evokes a sense of tranquility and intrigue. The sound design, crafted by me, features bells and sparkles, enhancing the sensual experience of the visuals. The combination of these elements invites the viewer to immerse themselves in the calming and reflective nature of the project.",
