@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "Explore the portfolio of Katrīna Puķe, a talented multimedia artist and graphic designer from Riga, Latvia.",
     images: [
       {
-        url: "https://www.katrinapuke.com/images/portfolio-cover.jpg",
+        url: "https://www.katrinapuke.com/portfolio-cover.jpg",
         width: 1200,
         height: 630,
         alt: "Katrīna Puķe Portfolio Cover Image",
