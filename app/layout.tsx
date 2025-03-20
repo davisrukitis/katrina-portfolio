@@ -1,6 +1,6 @@
 import type React from "react"
 import "./globals.css"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
@@ -25,10 +25,15 @@ export const metadata: Metadata = {
     ],
   },
   robots: "index, follow",
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#f3f4f6",
-  colorScheme: "light",
 }
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
+
+export const themeColor = "#f3f4f6"
+export const colorScheme = "light"
 
 export default function RootLayout({
   children,
