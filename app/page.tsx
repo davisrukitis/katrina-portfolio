@@ -14,6 +14,8 @@ import { DndContext } from "@dnd-kit/core"
 import SectionSeparator from "@/components/SectionSeparator"
 import Preloader from "@/components/Preloader"
 import { ModalProvider, useModal } from "@/components/ModalProvider"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 function MainContent() {
   const [svgElements, setSvgElements] = useState<
@@ -260,6 +262,7 @@ export default function Home() {
   return (
     <DndContext>
       <ModalProvider>
+        <SpeedInsights />
         <MainContent />
       </ModalProvider>
     </DndContext>
