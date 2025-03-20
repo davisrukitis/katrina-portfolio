@@ -14,7 +14,7 @@ import { DndContext } from "@dnd-kit/core"
 import SectionSeparator from "@/components/SectionSeparator"
 import Preloader from "@/components/Preloader"
 import { ModalProvider, useModal } from "@/components/ModalProvider"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 
 function MainContent() {
