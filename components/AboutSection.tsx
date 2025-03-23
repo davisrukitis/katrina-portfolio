@@ -18,9 +18,8 @@ export default function AboutSection({ onPukeClick }: AboutSectionProps) {
         <div>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 instrument-serif italic">About me</h2>
 
-          <div className="md:hidden mb-8">
+          <div onClick={handleImageClick} className="md:hidden mb-8">
             <Image
-              onClick={handleImageClick}
               src="/placeholder.svg"
               alt="About Me"
               width={400}
@@ -65,6 +64,7 @@ export default function AboutSection({ onPukeClick }: AboutSectionProps) {
             >
               Download CV
             </Link>
+            </div>  
           </div>
         </div>
       </div>
