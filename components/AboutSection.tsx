@@ -20,7 +20,7 @@ export default function AboutSection({ onPukeClick }: AboutSectionProps) {
 
           <div onClick={handleImageClick} className="md:hidden mb-8">
             <Image
-              src="/placeholder.svg"
+              src="/katrina.webp"
               alt="About Me"
               width={400}
               height={600}
@@ -31,7 +31,7 @@ export default function AboutSection({ onPukeClick }: AboutSectionProps) {
             <div className="hidden md:block md:float-right md:ml-8 md:mb-6 md:w-2/5 lg:w-1/3">
               <Image
                 onClick={handleImageClick}
-                src="/placeholder.svg"
+                src="/katrina.webp"
                 alt="About Me"
                 width={400}
                 height={600}
