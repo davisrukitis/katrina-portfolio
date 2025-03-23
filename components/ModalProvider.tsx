@@ -14,6 +14,8 @@ interface Project {
   images: string[]
   link?: string
   additionalInfo?: string
+  videoUrl?: string
+  videoType?: "youtube" | "vimeo" | "mp4"
 }
 
 interface ModalContextType {
