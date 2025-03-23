@@ -154,7 +154,7 @@ const portfolioData: PortfolioSectionData[] = [
         ],
         additionalInfo:
           "This experimental project explores the relationship between abstract geometric forms and light in a 3D space. Using Blender, I created a series of compositions that play with perception, shadow, and reflection to create visually striking environments.",
-        videoUrl: "https://www.youtube-nocookie.com/embed/V4nLXzO-t6M?si=JQ7Zm-z1aSPb3RSs",
+        videoUrl: "https://www.youtube.com/embed/V4nLXzO-t6M?si=JQ7Zm-z1aSPb3RSs",
         videoType: "youtube",
       },
       {
@@ -166,7 +166,7 @@ const portfolioData: PortfolioSectionData[] = [
         link: "https://youtu.be/fKa2_LguhMQ",
         additionalInfo:
           "This animation project focused on capturing the fluid movement of dance through 3D character animation. I explored motion capture techniques combined with manual keyframing to achieve natural, expressive movement that conveys emotion through body language.",
-        videoUrl: "https://www.youtube-nocookie.com/embed/fKa2_LguhMQ?si=sQgjNaFXEs6PH5Yv",
+        videoUrl: "https://www.youtube.com/embed/fKa2_LguhMQ?si=sQgjNaFXEs6PH5Yv",
         videoType: "youtube",
       },
       {
@@ -187,7 +187,7 @@ const portfolioData: PortfolioSectionData[] = [
         link: "https://youtu.be/75ZtEBgq5og",
         additionalInfo:
           "This experimental project combines live video footage with 3D animation elements to create a mixed-reality narrative. Using camera tracking and compositing techniques, I integrated abstract 3D elements that interact with the physical environment in unexpected ways.",
-        videoUrl: "https://www.youtube-nocookie.com/embed/75ZtEBgq5og?si=dwWAORVi05Wi0jTG",
+        videoUrl: "https://www.youtube.com/embed/75ZtEBgq5og?si=dwWAORVi05Wi0jTG",
         videoType: "youtube",
       },
       {
@@ -215,7 +215,7 @@ const portfolioData: PortfolioSectionData[] = [
         images: ["/princess-world.webp"],
         additionalInfo:
           "This VR experience tells the story of a lonely princess through an interactive fairy tale environment. Users can explore a surreal castle and its surroundings, discovering narrative elements through interaction with objects and environments. The project was built in Unity with custom 3D assets and atmospheric sound design.",
-        videoUrl: "https://www.youtube-nocookie.com/embed/ziaHUAMBmwE?si=bpBgWeVZvJAH-GdO",
+        videoUrl: "https://www.youtube.com/embed/ziaHUAMBmwE?si=bpBgWeVZvJAH-GdO",
         videoType: "youtube",
       },
       {
@@ -226,7 +226,7 @@ const portfolioData: PortfolioSectionData[] = [
         images: ["/the-link-between.webp"],
         additionalInfo:
           "This AR artwork revives the mythical essence of Burtnieku Ezers, a lake steeped in Latvian folklore, where legends speak of a sunken castle and ancient secrets beneath its waters. Inspired by Zalktis, the sacred grass snake symbolizing strenght, transformation, and the link between the physical and spiritual worlds, the piece is accessible only at the lake itself. By embedding this digital layer into the landscape, the work invites viewers to reconnect with ancestral myths and the unseen forces of nature, blending the real with the mystical.",
-        videoUrl: "https://www.youtube-nocookie.com/embed/JLQCsbgGHqs?si=8J2B1nESxQss0AAn",
+        videoUrl: "https://www.youtube.com/embed/JLQCsbgGHqs?si=8J2B1nESxQss0AAn",
         videoType: "youtube",
       },
     ],
@@ -280,7 +280,7 @@ const portfolioData: PortfolioSectionData[] = [
         images: ["/safe-driving.webp"],
         additionalInfo:
           "This personal project explores the inner conflict of wanting to be everywhere at once, constantly moving forward without taking a moment to pause. The video, created and edited by me, focuses on movement as a central theme, reflecting the restless drive and uncertainty of constantly pushing ahead. The sound design, also crafted by me, complements the visuals, intensifying the feeling of being in perpetual motion.",
-        videoUrl: "https://www.youtube-nocookie.com/embed/1e6VV_aBI0c?si=Hl8eACPfk49SvnxM",
+        videoUrl: "https://www.youtube.com/embed/1e6VV_aBI0c?si=Hl8eACPfk49SvnxM",
         videoType: "youtube",
       },
       {
@@ -292,7 +292,7 @@ const portfolioData: PortfolioSectionData[] = [
         link: "https://youtu.be/KY9xUp_2fhU",
         additionalInfo:
           "This video project focuses on the ethereal beauty of shiny water and sand patterns, presented in black and white to create a dreamlike atmosphere. The delicate interplay of light and texture evokes a sense of tranquility and intrigue. The sound design, crafted by me, features bells and sparkles, enhancing the sensual experience of the visuals. The combination of these elements invites the viewer to immerse themselves in the calming and reflective nature of the project.",
-        videoUrl: "https://www.youtube-nocookie.com/embed/KY9xUp_2fhU?si=eTN1iKHdLmYy4I2v",
+        videoUrl: "https://www.youtube.com/embed/KY9xUp_2fhU?si=eTN1iKHdLmYy4I2v",
         videoType: "youtube",
       },
     ],
