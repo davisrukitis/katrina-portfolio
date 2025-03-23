@@ -1,24 +1,45 @@
 import Image from "next/image"
 import Link from "next/link"
 
-export default function AboutSection() {
+interface AboutSectionProps {
+  onPukeClick?: () => void
+}
+
+export default function AboutSection({ onPukeClick }: AboutSectionProps) {
+  const handleImageClick = () => {
+    if (onPukeClick) {
+      onPukeClick()
+    }
+  }
+
   return (
     <section id="about" className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row items-start gap-8">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 md:mb-0 md:w-1/2 instrument-serif italic">
-            About me
-          </h2>
-          <div className="md:w-1/2">
+        <div>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 instrument-serif italic">About me</h2>
+
+          <div className="md:hidden mb-8">
             <Image
-              src="/katrina.webp"
+              onClick={handleImageClick}
+              src="/placeholder.svg"
               alt="About Me"
               width={400}
               height={600}
-              className="w-full h-auto object-cover rounded-lg mb-8"
+              className="w-full h-auto object-cover rounded-lg cursor-pointer"
             />
           </div>
-        </div>
+          <div>
+            <div className="hidden md:block md:float-right md:ml-8 md:mb-6 md:w-2/5 lg:w-1/3">
+              <Image
+                onClick={handleImageClick}
+                src="/placeholder.svg"
+                alt="About Me"
+                width={400}
+                height={600}
+                className="w-full h-auto object-cover rounded-lg cursor-pointer"
+              />
+            </div>
+
         <div className="mt-8">
           <p className="text-lg mb-6 inter">
             My name is Katrīna Puķe, and I’m an emerging multimedia artist and graphic designer from Riga, Latvia. I graduated from the Riga School of Design and Art as an Advertising Design Specialist and am currently pursuing a Bachelor's degree in Audio-Visual Arts at the Latvian Academy of Arts, specializing in Visual Communication.
