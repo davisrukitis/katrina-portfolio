@@ -247,7 +247,7 @@ function MainContent() {
         <SectionSeparator />
         <PortfolioSection />
         <SectionSeparator />
-        <AboutSection />
+        <AboutSection onPukeClick={spawnSvg} />
         <SectionSeparator />
         <ContactSection />
         <Footer onPukeClick={spawnSvg} availability={availability} />
