@@ -521,12 +521,19 @@ export default function PortfolioSection() {
             <Skeleton
               className={`w-full h-full rounded absolute inset-0 ${loadedImages.includes(hoveredProject.images[0]) ? "hidden" : "block"}`}
             />
-            <img
-              src={hoveredProject.images[0] || "/placeholder.svg"}
-              alt={hoveredProject.name}
-              className={`w-full h-full object-cover rounded ${loadedImages.includes(hoveredProject.images[0]) ? "block" : "opacity-0"}`}
-              onLoad={() => handleImageLoad(hoveredProject.images[0])}
-            />
+            <div className="w-full h-full relative">
+              <img
+                src={hoveredProject.images[0] || "/placeholder.svg"}
+                alt={hoveredProject.name}
+                className={`w-full h-full object-cover rounded ${loadedImages.includes(hoveredProject.images[0]) ? "block" : "opacity-0"}`}
+                onLoad={() => handleImageLoad(hoveredProject.images[0])}
+              />
+              {hoveredProject.videoUrl && (
+                <div className="absolute inset-0 flex items-center justify-center bg-black/30 rounded">
+                  <Play className="h-10 w-10 text-white" />
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}
