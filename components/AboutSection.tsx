@@ -64,10 +64,11 @@ export default function AboutSection({ onPukeClick }: AboutSectionProps) {
             >
               Download CV
             </Link>
-            </div>  
-          </div>
+           </div> 
+          </div>  
         </div>
-      </div>
+       </div>
+     </div>
     </section>
   )
 }
