@@ -68,7 +68,7 @@ export default function TopBar({ availability }: TopBarProps) {
 
         <a href="#about" onClick={scrollToAbout} className="flex items-center space-x-2 link-hover px-3 py-1">
           <div className={`h-2 w-2 rounded-full ${getAvailabilityColor()}`} />
-          <span className="text-sm inter">Available to work</span>
+          <span className="text-sm inter">Limited availability</span>
         </a>
       </div>
     </header>
