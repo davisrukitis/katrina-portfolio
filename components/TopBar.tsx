@@ -19,7 +19,7 @@ export default function TopBar({ availability }: TopBarProps) {
     const updateTime = () => {
       const now = new Date()
       const timeString = now.toLocaleTimeString("en-GB", {
-        timeZone: "Europe/Riga",
+        timeZone: "Europe/Vienna",
         hour: "2-digit",
         minute: "2-digit",
         second: "2-digit",
