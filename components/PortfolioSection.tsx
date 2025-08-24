@@ -31,10 +31,37 @@ const portfolioData: PortfolioSectionData[] = [
     id: "graphic-design",
     title: "Graphic Design",
     description:
-      "In this section, you'll find a curated collection of my graphic design work—ranging from brand identities and posters to logos, social media visuals, and other creative pieces. Among all my creative pursuits, graphic design stands out as my strongest passion. For me, it's more than aesthetics; it's about weaving narratives that reflect a brand's essence and leave a lasting impression. Every project begins with deep research and a sharp focus on detail, ensuring that each design is both meaningful and visually compelling. From brainstorming initial ideas to refining the final product, my aim is to create visuals that tell a story with purpose and clarity.",
+      "In this section, you'll find a curated collection of my graphic design work—ranging from brand identities and posters to social media visuals and other creative pieces. Among all my creative pursuits, graphic design stands out as my strongest passion.",
     projects: [
       {
         id: 1,
+        name: "Calle Libre",
+        description: "Visuals & Festival Pass",
+        year: "2025",
+        images: [
+          "/callelibre-1.webp",
+          "/callelibre-2.webp",
+          "/callelibre-3.webp",
+          "/callelibre-4.webp",
+          "/callelibre-5.webp",
+          "/callelibre-6.webp",          
+        ],
+        additionalInfo:
+          "For Calle Libre, the urban arts festival in Vienna, I designed the official festival pass flyer featuring the festival map and program, as well as social media visuals such as posters and simple animations.",
+      },
+      {
+        id: 2,
+        name: "Muralia",
+        description: "Logo Animation",
+        year: "2025",
+        images: [
+          "/muralia.gif",
+        ],
+        additionalInfo:
+          "For Muralia, a street art agency, I created a logo animation highlighting the letter “a” as a changing, dynamic element. The animation features variations of the letter handwritten by the agency’s friends and collaborating artists.",
+      },
+      {
+        id: 3,
         name: "Valmiera Drama Theater",
         description: "Theater Visual Identity Redesign",
         year: "2022",
@@ -44,10 +71,10 @@ const portfolioData: PortfolioSectionData[] = [
           "/teatris3.webp",
         ],
         additionalInfo:
-          "For my final project at the Riga School of Design and Art, I created a new visual identity for a theater in Valmiera, Latvia. Based on extensive research, the project included a brand book with thorough graphic design examples like logo variations, layouts, and other visual applications, ensuring a cohesive yet flexible brand presence. The identity was designed to enhance the theater’s communication across various platforms while maintaining a strong visual character.",
+          "For my graduation project at the Riga School of Design and Art, I created a conceptual visual identity for a theater in Valmiera, Latvia. Based on research, the project resulted in a brand book with detailed graphic design guidelines, including logo variations, layouts, and other visual applications.",
       },
       {
-        id: 2,
+        id: 4,
         name: "SIMO Pizzeria",
         description: "Graphic Design and Visuals",
         year: "2022",
@@ -56,79 +83,43 @@ const portfolioData: PortfolioSectionData[] = [
           "I created a cohesive visual identity for SIMO Pizzeria, drawing inspiration from the vibrant colors of Moroccan tiles. This included menu design, layout development, and social media content, ensuring a consistent and engaging brand presence across various platforms.",
       },
       {
-        id: 3,
+        id: 5,
         name: "Rīga Stradiņš University Stomatology SZP",
         description: "Visual Identity and Graphic Design",
         year: "2023",
         images: ["/rsu2.webp", "/rsu1.webp", "/rsu3.webp"],
         additionalInfo:
-          "I developed a visual identity and graphic design for the social media platforms of Rīga Stradiņš University Stomatology SZP, drawing inspiration from the intricate details of teeth and X-rays. The design aimed to reflect the precision and professionalism of the dental field, creating a modern and engaging online presence.",
+          "I developed a visual identity for the social media platforms of Rīga Stradiņš University Stomatology SZP, creating abstract illustrations resembling teeth, echoing the aesthetic qualities of X-ray imagery.",
       },
       {
-        id: 4,
+        id: 6,
         name: "Swisscom, Baltic Brand Forum, CSDD, Ergo",
         description: "Social Media Design for Brands",
         year: "2023",
         images: ["/element2.webp", "/element1.webp", "/element3.webp"],
         additionalInfo:
-          "I created social media visuals for brands like Swisscom, Baltic Brand Forum, the Latvian Road Traffic Safety Directorate (CSDD), and Ergo Group. The designs were adapted to align with each brand’s existing guidelines, ensuring consistency with their established visual identity while enhancing engagement across digital platforms.",
+          "While working in Element Digital, I created social media visuals for brands like Swisscom, Baltic Brand Forum, the Latvian Road Traffic Safety Directorate (CSDD), and Ergo Group. The designs were adapted to align with each brand’s existing guidelines, ensuring consistency with their established visual identity.",
       },
       {
-        id: 5,
+        id: 7,
         name: "Tallinas Street Creative Quarter",
         description: "Social Media and Graphic Design",
         year: "2024–2025",
         images: ["/kvartals2.webp", "/kvartals-1.webp"],
         additionalInfo:
-          "I created various graphic design visuals for both social media and print. The focus was on adapting and developing the brand’s existing visual identity to ensure it remained true to its core values while staying modern and relevant in today’s digital landscape. The designs were crafted to enhance the quarter's presence and engage its audience across multiple platforms.",
+          "During my time at Tallinas Street Creative Quarter, I created a wide range of graphic design works, including numerous event posters and visuals for both social media and print, as well as contributions to their website.",
       },
       {
-        id: 6,
-        name: "Latvian Pavilion – Venice Biennale",
-        description: "Informational Signage Design for Latvian Pavilion",
-        year: "2023",
-        images: ["/tcl.webp"],
-        additionalInfo:
-          "During my internship at the Venice Biennale, I worked on designing informational signage for the Latvian Pavilion. The design process was guided by the pavilion’s existing visual identity, ensuring consistency with the established guidelines while effectively communicating key information to visitors in a clear and engaging manner.",
-      },
-      {
-        id: 9,
-        name: "Ex-Libris Stamp Design",
-        description: "A project for my dad",
-        year: "2022",
-        images: ["/ex-libris.webp"],
-        additionalInfo:
-          "As a personal and meaningful project, I designed a custom ex-libris stamp for my dad, a passionate book reader. The design features a hand-drawn illustration, creating a unique and heartfelt mark for his book collection.",
-      },
-      {
-        id: 10,
-        name: "Lip Gloss Packaging Design",
-        description: "ITSTIMETO Fashion",
-        year: "2021",
-        images: ["/itstimeto-lipgloss1.webp"],
-        additionalInfo:
-          "I created a minimalistic packaging design for a lip gloss product, focusing on simplicity. The design aimed to highlight the elegance of the product, reflecting both modern aesthetics and a sleek, refined look.",
-      },
-      {
-        id: 11,
+        id: 8,
         name: "Book Layout Design and Illustrations",
         description: "Personal Project",
         year: "2022",
         images: ["/book-layout.webp"],
         additionalInfo:
-          "For this school project, I worked on two book designs. One featured minimalistic illustrations symbolizing crossroads with oneself, capturing a personal and introspective theme. The other focused purely on minimalistic layout design. Both projects aimed to create a visually harmonious and intimate experience, with a strong emphasis on personal reflection and design clarity.",
+          "For this school project, I worked on two book designs. One featured minimalistic illustrations symbolizing crossroads with oneself. The other focused purely on minimalistic layout design. Both projects aimed to create a visually harmonious experience with a strong emphasis on personal reflection and design clarity.",
       },
       {
-        id: 12,
-        name: "Conceptual UI Redesign",
-        description: "ZARA Clothing Store App",
-        year: "2023",
-        images: ["/zara.webp"],
-        additionalInfo:
-          "I created a conceptual UI redesign for the ZARA clothing store app, with a strong focus on enhancing user experience. The design aimed to simplify navigation, improve functionality, and create a visually engaging interface, ensuring a seamless and enjoyable shopping experience for users.",
-      },
-      {
-        id: 13,
+        id: 9,
         name: "Reflecting on Myself as a Technical Issue",
         description: "Personal Project",
         year: "2022",
@@ -142,7 +133,7 @@ const portfolioData: PortfolioSectionData[] = [
     id: "3d-design",
     title: "3D Design & Animation",
     description:
-      "This section presents a diverse range of my 3D design and animation projects, including 3D-printed creations, detailed renderings, and dynamic animations. My process is fueled by curiosity and innovation—blending technical precision with imaginative problem-solving to craft engaging visual experiences. Whether it's building models, creating immersive environments, or animating unique concepts, I constantly challenge myself to push creative boundaries. As I continue honing my skills in this medium, I'm excited to dive into new techniques and bring bold, inventive ideas to life.",
+      "This section presents my 3D design and animation projects. As I continue developing my skills in this field, I'm excited to dive into new techniques and bring bold, inventive ideas to life.",
     projects: [
       {
         id: 14,
@@ -153,7 +144,7 @@ const portfolioData: PortfolioSectionData[] = [
           "/3d-abstract.webp",
         ],
         additionalInfo:
-          "This experimental project explores the relationship between abstract geometric forms and light in a 3D space. Using Blender, I created a series of compositions that play with perception, shadow, and reflection to create visually striking environments.",
+          "This project explores the relationship between abstract geometric forms and light in a 3D space. Using Blender, I created a series of compositions that play with perception, shadow, and reflection.",
         videoUrl: "https://www.youtube.com/embed/V4nLXzO-t6M?si=JQ7Zm-z1aSPb3RSs",
         videoType: "youtube",
       },
@@ -165,7 +156,7 @@ const portfolioData: PortfolioSectionData[] = [
         images: ["/human-dancing.webp"],
         link: "https://youtu.be/fKa2_LguhMQ",
         additionalInfo:
-          "This animation project focused on capturing the fluid movement of dance through 3D character animation. I explored motion capture techniques combined with manual keyframing to achieve natural, expressive movement that conveys emotion through body language.",
+          "This animation project is focused on capturing the movements of dance through 3D character animation.",
         videoUrl: "https://www.youtube.com/embed/fKa2_LguhMQ?si=sQgjNaFXEs6PH5Yv",
         videoType: "youtube",
       },
@@ -197,7 +188,7 @@ const portfolioData: PortfolioSectionData[] = [
         year: "2023",
         images: ["/3d-earrings1.webp"],
         additionalInfo:
-          "This project bridges digital design and physical craftsmanship through 3D printing technology. I designed a collection of geometrically complex earrings that would be impossible to create with traditional jewelry-making techniques, then produced them using biodegradable PLA material.",
+          "This project bridges digital design and physical craftsmanship through 3D printing technology. The earrings were modeled digitally and inspired by abstract forms found in nature, translating organic patterns into wearable objects.",
       },
     ],
   },
@@ -205,7 +196,7 @@ const portfolioData: PortfolioSectionData[] = [
     id: "vr",
     title: "VR & AR",
     description:
-      "Here, you'll discover my ventures into Virtual Reality, with projects designed to create immersive, interactive experiences using Unity. A standout project is a walking simulator that invites users to navigate a thoughtfully constructed virtual space, designed to immerse and captivate. My approach to VR focuses on crafting intuitive, meaningful experiences that foster genuine connections with the digital environment. Each project blends technical expertise with creative storytelling, unlocking the potential of VR to inspire exploration and engagement. As I expand my work in this field, I'm eager to push the limits of immersive interaction.",
+      "Here, you’ll find my explorations in Virtual Reality projects built in Unity that combine immersive interactivity with creative storytelling. Each work reflects both technical precision and artistic experimentation. As I continue developing in this field, I aim to push the boundaries of what immersive interaction can be.",
     projects: [
       {
         id: 19,
@@ -228,41 +219,6 @@ const portfolioData: PortfolioSectionData[] = [
           "This AR artwork revives the mythical essence of Burtnieku Ezers, a lake steeped in Latvian folklore, where legends speak of a sunken castle and ancient secrets beneath its waters. Inspired by Zalktis, the sacred grass snake symbolizing strenght, transformation, and the link between the physical and spiritual worlds, the piece is accessible only at the lake itself. By embedding this digital layer into the landscape, the work invites viewers to reconnect with ancestral myths and the unseen forces of nature, blending the real with the mystical.",
         videoUrl: "https://www.youtube.com/embed/JLQCsbgGHqs?si=8J2B1nESxQss0AAn",
         videoType: "youtube",
-      },
-    ],
-  },
-  {
-    id: "photography",
-    title: "Photography",
-    description:
-      "This section offers a glimpse into my photography projects, spanning everything from carefully styled concept shoots to energetic event photography. My work balances bold, creative direction with the ability to capture spontaneous, genuine moments. Whether working in a controlled studio setting or documenting live events, I aim to blend artistry with precision, ensuring each shot reflects its unique atmosphere. This adaptability allows me to tailor my approach to each project, resulting in visuals that are both memorable and impactful.",
-    projects: [
-      {
-        id: 22,
-        name: "Studio photography portrait series",
-        description: "Personal Project",
-        year: "2023",
-        images: ["/studio-1.webp", "/studio2.webp", "/studio3.webp"],
-        additionalInfo:
-          "A studio photography portrait series exploring light, shadow, and expression."
-      },
-      {
-        id: 23,
-        name: "Getting ready",
-        description: "Personal Project",
-        year: "2022",
-        images: ["/getting-ready.webp"],
-        additionalInfo:
-          "Through details, motion, and light, the images reflect the excitement, small rituals, and fleeting moments before stepping into the night."
-      },
-      {
-        id: 24,
-        name: "The water muse",
-        description: "Personal Project",
-        year: "2023",
-        images: ["/water-muse.webp"],
-        additionalInfo:
-          "'The Water Muse captures the fluidity of light as it dances across the human form. The project explores movement and transformation through the lens of light, evoking the delicate and ever-changing nature of water without its physical presence."
       },
     ],
   },
@@ -298,10 +254,10 @@ const portfolioData: PortfolioSectionData[] = [
     ],
   },
   {
-    id: "prints",
-    title: "Prints",
+    id: "prints-paintings",
+    title: "Prints & Paintings",
     description:
-      "In this section, you'll find a selection of my screen-printing and monotype works, exploring the unique textures and layers. My approach is rooted in experimentation, using the unpredictability of the process to embrace spontaneity and creative accidents. Each piece is an exploration of form, color, and composition, where repetition meets individuality—especially in monotypes, where every print is one of a kind. Through layering, contrast, and texture, I aim to create visually engaging works that reflect both intentional design and the organic nature of the medium.",
+      "Selection of my screen-printing and monotype works. My approach is rooted in experimentation, using the unpredictability of the process to embrace spontaneity and creative accidents. Each piece is an exploration of form, color, and composition, where repetition meets individuality—especially in monotypes, where every print is one of a kind.",
     projects: [
       {
         id: 28,
@@ -348,18 +304,10 @@ const portfolioData: PortfolioSectionData[] = [
         additionalInfo:
           "This series of monotype prints explores botanical forms through abstraction and gestural mark-making. Rather than depicting flowers realistically, the prints capture their essence through organic shapes, dynamic lines, and layered colors that evoke the sensory experience of a garden in bloom.",
       },
-    ],
-  },
-  {
-    id: "paintings",
-    title: "Paintings",
-    description:
-      "This section presents my painting works, created with oil on canvas. My practice combines a strong foundation in academic painting, including detailed and precise still life compositions, with a passion for creative exploration. Beyond traditional techniques, I delve into imaginative projects that allow me to experiment with ideas, forms, and emotions. This balance between technical skill and artistic freedom defines my approach to painting, resulting in works that are both disciplined and expressive.",
-    projects: [
       {
         id: 95,
         name: "Flower fever dream, oil on canvas",
-        description: "Personal Project",
+        description: "",
         year: "2023",
         images: ["/flower-fever-dream.webp"],
         additionalInfo:
@@ -368,7 +316,7 @@ const portfolioData: PortfolioSectionData[] = [
       {
         id: 96,
         name: "Returning to self, oil on wood",
-        description: "Personal Project",
+        description: "",
         year: "2023",
         images: ["/returning-to-self.webp"],
         additionalInfo:
@@ -377,7 +325,7 @@ const portfolioData: PortfolioSectionData[] = [
       {
         id: 97,
         name: "Burnout, oil on canvas",
-        description: "Personal Project",
+        description: "",
         year: "2022",
         images: ["/burnout.webp"],
         additionalInfo:
@@ -386,7 +334,7 @@ const portfolioData: PortfolioSectionData[] = [
       {
         id: 98,
         name: "Kitchen scene, oil on canvas",
-        description: "Personal Project",
+        description: "",
         year: "2022",
         images: ["/kitchen.webp"],
         additionalInfo:
@@ -395,7 +343,7 @@ const portfolioData: PortfolioSectionData[] = [
       {
         id: 99,
         name: "Self-portrait, oil on canvas",
-        description: "Personal Project",
+        description: "",
         year: "2023",
         images: ["/self-portrait.webp"],
         additionalInfo:
