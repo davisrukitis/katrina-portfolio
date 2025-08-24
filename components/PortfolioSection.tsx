@@ -39,10 +39,10 @@ const portfolioData: PortfolioSectionData[] = [
         description: "Visuals & Festival Pass",
         year: "2025",
         images: [
-          "/callelibre-1.webp",
-          "/callelibre-2.webp",
           "/callelibre-3.webp",
+          "/callelibre-2.webp",
           "/callelibre-4.webp",
+          "/callelibre-1.webp",
           "/callelibre-5.webp",
           "/callelibre-6.webp",          
         ],
