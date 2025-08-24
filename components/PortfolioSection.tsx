@@ -257,7 +257,7 @@ const portfolioData: PortfolioSectionData[] = [
     id: "prints-paintings",
     title: "Prints & Paintings",
     description:
-      "Selection of my screen-printing and monotype works. My approach is rooted in experimentation, using the unpredictability of the process to embrace spontaneity and creative accidents. Each piece is an exploration of form, color, and composition, where repetition meets individuality—especially in monotypes, where every print is one of a kind.",
+      "A selection of my screen prints, monotypes, and oil paintings. In printmaking, I embrace experimentation and the unpredictability of the process, where each piece explores form, color, and composition—especially in unique, one-of-a-kind monotypes. My painting practice builds on academic techniques like precise still lifes, while also venturing into imaginative projects that balance technical skill with expressive freedom.",
     projects: [
       {
         id: 28,
