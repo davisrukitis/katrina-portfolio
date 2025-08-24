@@ -41,19 +41,16 @@ export default function AboutSection({ onPukeClick }: AboutSectionProps) {
 
         <div className="mt-8">
           <p className="text-lg mb-6 inter">
-            My name is Katrīna Puķe, and I’m an emerging multimedia artist and graphic designer from Riga, Latvia. I graduated from the Riga School of Design and Art as an Advertising Design Specialist and am currently pursuing a Bachelor's degree in Audio-Visual Arts at the Latvian Academy of Arts, specializing in Visual Communication.
+            My name is Katrīna Puķe, and I’m an emerging multimedia artist and graphic designer from Riga, Latvia. I graduated from the Riga School of Design and Art as an Advertising Design Specialist and am currently pursuing a Bachelor’s degree in Audio-Visual Media Arts at the Latvian Academy of Arts, specializing in Visual Communication.
           </p>
           <p className="text-lg mb-6 inter">
-            My passion for art began at the age of six when I first attended the Design and Art School of Valmiera in the "Visual Plastic Arts" program. It was there that I started developing my artistic abilities and creative vision through academic painting, drawing, and sculpting.
+            I have built a diverse background in art and design through internships at Element Digital in Riga, working as a mediator at the Venice Biennale in Italy, and most recently joining the street art agency Muralia and the Calle Libre urban arts festival in Vienna, Austria, as a multimedia and creative projects assistant.
           </p>
           <p className="text-lg mb-6 inter">
-            With a diverse background in art and design, I’ve had the privilege of working with design and advertising agencies such as Element Digital in Riga. I also interned as a pavilion assistant at the prestigious Venice Biennale of Architecture and am currently gaining experience as a marketing and content manager.
-          </p>
-          <p className="text-lg mb-6 inter">
-            I’m proficient in Adobe Creative Cloud, with expertise in Illustrator, Photoshop, and InDesign. My skills extend to video editing and include foundational knowledge of 3D design and animation as well as virtual reality experiences developed through tools like Blender and Unity.
+            I’m proficient in Adobe Creative Cloud, with expertise in Illustrator, Photoshop, and InDesign. My skills also extend to video editing, as well as foundational knowledge of 3D design, animation, and virtual reality experiences developed with tools like Blender and Unity.
           </p>
           <p className="text-lg mb-10 inter">
-            My creative work has been featured in exhibitions such as “Rakstatsevišķi” in 2023, and my screen print pieces have been showcased at the annual “Jaunmarka” student art exhibition at the Latvian Academy of Arts for several years.
+            My creative work has been exhibited in shows such as Rakstatsevišķi (2023) and the annual student art exhibition Jaunmarka at the Latvian Academy of Arts, where my screen prints have been presented for the past three years.
           </p>
 
           <div className="flex space-x-4 mt-8">
