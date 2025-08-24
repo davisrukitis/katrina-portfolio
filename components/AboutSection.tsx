@@ -55,7 +55,7 @@ export default function AboutSection({ onPukeClick }: AboutSectionProps) {
 
           <div className="flex space-x-4 mt-8">
             <Link
-              href="/Katrina-P-CV.pdf"
+              href="/Katrina-Puke-CV-2025-LV.pdf"
               target="_blank"
               className="px-4 py-2 border border-black rounded-md hover:bg-black hover:text-white transition-colors inter"
             >
