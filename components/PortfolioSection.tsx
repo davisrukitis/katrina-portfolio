@@ -60,8 +60,35 @@ const portfolioData: PortfolioSectionData[] = [
         additionalInfo:
           "For Muralia, a street art agency, I created a logo animation highlighting the letter “a” as a changing, dynamic element. The animation features variations of the letter handwritten by the agency’s friends and collaborating artists.",
       },
-      {
+       {
         id: 3,
+        name: "Visuals for Valmiera theater performance",
+        description: "Theater Visual Identity Redesign",
+        year: "2022",
+        images: [
+          "/plakati-mockup.webp",
+          "/stage.webp",
+        ],
+        additionalInfo:
+          "For this performance reading at Valmiera Theater, I am developing a complete visual package that is still in progress. This includes poster and flyer designs, stage design, and video visuals. The project brings together graphic design, moving image, and spatial elements to shape the overall atmosphere of the performance.",
+      },
+      {
+        id: 4,
+        name: "Creative posters",
+        description: "Theater Visual Identity Redesign",
+        year: "2022",
+        images: [
+          "/posters-1.webp",
+          "/posters-2.webp",
+          "/posters-3.webp",
+          "/posters-4.webp",
+          "/posters-5.webp",
+        ],
+        additionalInfo:
+          "A series of experimental poster designs exploring different visual styles, concepts, and graphic techniques.",
+      },
+      {
+        id: 5,
         name: "Valmiera Drama Theater",
         description: "Theater Visual Identity Redesign",
         year: "2022",
@@ -74,7 +101,7 @@ const portfolioData: PortfolioSectionData[] = [
           "For my graduation project at the Riga School of Design and Art, I created a conceptual visual identity for a theater in Valmiera, Latvia. Based on research, the project resulted in a brand book with detailed graphic design guidelines, including logo variations, layouts, and other visual applications.",
       },
       {
-        id: 4,
+        id: 6,
         name: "SIMO Pizzeria",
         description: "Graphic Design and Visuals",
         year: "2022",
@@ -83,7 +110,7 @@ const portfolioData: PortfolioSectionData[] = [
           "I created a cohesive visual identity for SIMO Pizzeria, drawing inspiration from the vibrant colors of Moroccan tiles. This included menu design, layout development, and social media content, ensuring a consistent and engaging brand presence across various platforms.",
       },
       {
-        id: 5,
+        id: 7,
         name: "Rīga Stradiņš University Stomatology SZP",
         description: "Visual Identity and Graphic Design",
         year: "2023",
@@ -92,7 +119,7 @@ const portfolioData: PortfolioSectionData[] = [
           "I developed a visual identity for the social media platforms of Rīga Stradiņš University Stomatology SZP, creating abstract illustrations resembling teeth, echoing the aesthetic qualities of X-ray imagery.",
       },
       {
-        id: 6,
+        id: 8,
         name: "Swisscom, Baltic Brand Forum, CSDD, Ergo",
         description: "Social Media Design for Brands",
         year: "2023",
@@ -101,16 +128,16 @@ const portfolioData: PortfolioSectionData[] = [
           "While working in Element Digital, I created social media visuals for brands like Swisscom, Baltic Brand Forum, the Latvian Road Traffic Safety Directorate (CSDD), and Ergo Group. The designs were adapted to align with each brand’s existing guidelines, ensuring consistency with their established visual identity.",
       },
       {
-        id: 7,
+        id: 9,
         name: "Tallinas Street Creative Quarter",
         description: "Social Media and Graphic Design",
         year: "2024–2025",
-        images: ["/kvartals2.webp", "/kvartals-1.webp"],
+        images: ["/Mockup2.webp", "/kvartals2.webp"],
         additionalInfo:
           "During my time at Tallinas Street Creative Quarter, I created a wide range of graphic design works, including numerous event posters and visuals for both social media and print, as well as contributions to their website.",
       },
       {
-        id: 8,
+        id: 10,
         name: "Book Layout Design and Illustrations",
         description: "Personal Project",
         year: "2022",
@@ -119,7 +146,7 @@ const portfolioData: PortfolioSectionData[] = [
           "For this school project, I worked on two book designs. One featured minimalistic illustrations symbolizing crossroads with oneself. The other focused purely on minimalistic layout design. Both projects aimed to create a visually harmonious experience with a strong emphasis on personal reflection and design clarity.",
       },
       {
-        id: 9,
+        id: 11,
         name: "Reflecting on Myself as a Technical Issue",
         description: "Personal Project",
         year: "2022",
@@ -200,8 +227,19 @@ const portfolioData: PortfolioSectionData[] = [
     projects: [
       {
         id: 19,
+        name: "Cerebrum",
+        description: "Unity VR",
+        year: "2024",
+        images: ["/cerebrum.webp"],
+        additionalInfo:
+          "This virtual environment, created in Unity, serves as a metaphor for the inner world of the mind - structured like an operating system, yet equally chaotic. At the core of the work lies the cliché of “finding oneself”: upon entering this VR space, no one will discover themselves—only me, and my own sarcastic reflections on life. Within the environment, viewers can collect folders whose titles embody fragments of my thoughts such as “Eternal Youth,” “Dream Scenario,” “Fake Prayers” etc. These folders act as poetic threads leading deeper into the layers of my mind, hidden beneath the façade of an inner operating system.",
+        videoUrl: "https://www.youtube.com/embed/mkPmAp1WBvM?si=BjJvzkovLfCmbQea",
+        videoType: "youtube",
+      },
+      {
+        id: 20,
         name: "The Lonely Princess World",
-        description: "Personal Project",
+        description: "Unity VR",
         year: "2024",
         images: ["/princess-world.webp"],
         additionalInfo:
@@ -210,9 +248,9 @@ const portfolioData: PortfolioSectionData[] = [
         videoType: "youtube",
       },
       {
-        id: 20,
+        id: 21,
         name: "The link between",
-        description: "Personal Project",
+        description: "AR",
         year: "2024",
         images: ["/the-link-between.webp"],
         additionalInfo:
@@ -228,6 +266,30 @@ const portfolioData: PortfolioSectionData[] = [
     description:
       "In this section, you'll find a collection of my creative video and audio projects, focused on artistic exploration and expression. My approach is driven by experimentation, where visuals, sound, and emotion intersect to create immersive, thought-provoking experiences. I concentrate on rhythm, atmosphere, and abstract storytelling, moving beyond traditional narratives to craft pieces that invite deeper reflection. Each project is developed with careful attention to detail, blending visual and auditory elements to challenge conventions and evoke a strong sensory response.",
     projects: [
+      {
+        id: 23,
+        name: "Liminality",
+        description: "Personal Project",
+        year: "2025",
+        images: ["/liminality.webp"],
+        link: "https://www.youtube.com/watch?v=1n2aFpAKpZw",
+        additionalInfo:
+          "This video work explores the concept of liminality—the state of being in-between. Created through screen recording techniques, with an original soundscape produced by me, the piece reflects on the digital condition of constant transition. The work examines what it feels like to exist neither fully here nor there, but somewhere in between.",
+        videoUrl: "https://www.youtube.com/embed/1n2aFpAKpZw?si=5cueZ03KAECfyMXK",
+        videoType: "youtube",
+      },
+      {
+        id: 24,
+        name: "Updated washing machine",
+        description: "Personal Project",
+        year: "2025",
+        images: ["/updated-washing-machine.webp"],
+        link: "https://www.youtube.com/watch?v=ZKpVVGOlwEE",
+        additionalInfo:
+          "This audio-reactive, generative artwork was created in TouchDesigner and features a custom soundscape made by me - all built from recordings of a washing machine. The mechanical rhythms and textures of the recordings were transformed into a layered composition, which in turn drives the visual output. By translating the mundane cycle of a household machine into an audiovisual experience, the work reimagines the ordinary as something unpredictable and alive.",
+        videoUrl: "https://www.youtube.com/embed/ZKpVVGOlwEE?si=DGN-RovOUzsSmekj",
+        videoType: "youtube",
+      },
       {
         id: 25,
         name: "Safe driving",
@@ -245,7 +307,7 @@ const portfolioData: PortfolioSectionData[] = [
         description: "Personal Project",
         year: "2023",
         images: ["/baltic-sea.webp"],
-        link: "https://youtu.be/KY9xUp_2fhU",
+        link: "https://www.youtube.com/watch?v=KY9xUp_2fhU",
         additionalInfo:
           "This video project focuses on the ethereal beauty of shiny water and sand patterns, presented in black and white to create a dreamlike atmosphere. The delicate interplay of light and texture evokes a sense of tranquility and intrigue. The sound design, crafted by me, features bells and sparkles, enhancing the sensual experience of the visuals. The combination of these elements invites the viewer to immerse themselves in the calming and reflective nature of the project.",
         videoUrl: "https://www.youtube.com/embed/KY9xUp_2fhU?si=eTN1iKHdLmYy4I2v",
@@ -259,15 +321,6 @@ const portfolioData: PortfolioSectionData[] = [
     description:
       "A selection of my screen prints, monotypes, and oil paintings. In printmaking, I embrace experimentation and the unpredictability of the process, where each piece explores form, color, and composition—especially in unique, one-of-a-kind monotypes. My painting practice builds on academic techniques like precise still lifes, while also venturing into imaginative projects that balance technical skill with expressive freedom.",
     projects: [
-      {
-        id: 28,
-        name: "I want",
-        description: "Digital print",
-        year: "2022",
-        images: ["/i-want-1.webp", "/i-want-2.webp"],
-        additionalInfo:
-          "This series of digital prints explores desire and aspiration through typographic experimentation. The work plays with legibility and visual hierarchy, using overlapping text and distortion techniques to create compositions that reveal different messages depending on viewing distance and perspective.",
-      },
       {
         id: 29,
         name: "Twins",
