@@ -306,8 +306,8 @@ const portfolioData: PortfolioSectionData[] = [
       },
       {
         id: 95,
-        name: "Flower fever dream, oil on canvas",
-        description: "",
+        name: "Flower fever dream",
+        description: "Oil on canvas",
         year: "2023",
         images: ["/flower-fever-dream.webp"],
         additionalInfo:
@@ -315,8 +315,8 @@ const portfolioData: PortfolioSectionData[] = [
       },
       {
         id: 96,
-        name: "Returning to self, oil on wood",
-        description: "",
+        name: "Returning to self",
+        description: "Oil on wood",
         year: "2023",
         images: ["/returning-to-self.webp"],
         additionalInfo:
@@ -324,8 +324,8 @@ const portfolioData: PortfolioSectionData[] = [
       },
       {
         id: 97,
-        name: "Burnout, oil on canvas",
-        description: "",
+        name: "Burnout",
+        description: "Oil on canvas",
         year: "2022",
         images: ["/burnout.webp"],
         additionalInfo:
@@ -333,8 +333,8 @@ const portfolioData: PortfolioSectionData[] = [
       },
       {
         id: 98,
-        name: "Kitchen scene, oil on canvas",
-        description: "",
+        name: "Kitchen scene",
+        description: "Oil on canvas",
         year: "2022",
         images: ["/kitchen.webp"],
         additionalInfo:
@@ -342,8 +342,8 @@ const portfolioData: PortfolioSectionData[] = [
       },
       {
         id: 99,
-        name: "Self-portrait, oil on canvas",
-        description: "",
+        name: "Self-portrait",
+        description: "Oil on canvas",
         year: "2023",
         images: ["/self-portrait.webp"],
         additionalInfo:
