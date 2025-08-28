@@ -64,7 +64,7 @@ const portfolioData: PortfolioSectionData[] = [
         id: 3,
         name: "Visuals for Valmiera theater performance",
         description: "Theater Visual Identity Redesign",
-        year: "2022",
+        year: "2025",
         images: [
           "/plakati-mockup.webp",
           "/stage.webp",
@@ -76,7 +76,7 @@ const portfolioData: PortfolioSectionData[] = [
         id: 4,
         name: "Creative posters",
         description: "Theater Visual Identity Redesign",
-        year: "2022",
+        year: "2025",
         images: [
           "/posters-1.webp",
           "/posters-2.webp",
@@ -229,7 +229,7 @@ const portfolioData: PortfolioSectionData[] = [
         id: 19,
         name: "Cerebrum",
         description: "Unity VR",
-        year: "2024",
+        year: "2025",
         images: ["/cerebrum.webp"],
         additionalInfo:
           "This virtual environment, created in Unity, serves as a metaphor for the inner world of the mind - structured like an operating system, yet equally chaotic. At the core of the work lies the cliché of “finding oneself”: upon entering this VR space, no one will discover themselves—only me, and my own sarcastic reflections on life. Within the environment, viewers can collect folders whose titles embody fragments of my thoughts such as “Eternal Youth,” “Dream Scenario,” “Fake Prayers” etc. These folders act as poetic threads leading deeper into the layers of my mind, hidden beneath the façade of an inner operating system.",
