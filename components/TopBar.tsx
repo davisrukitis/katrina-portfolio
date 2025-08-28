@@ -19,7 +19,7 @@ export default function TopBar({ availability }: TopBarProps) {
     const updateTime = () => {
       const now = new Date()
       const timeString = now.toLocaleTimeString("en-GB", {
-        timeZone: "Europe/Vienna",
+        timeZone: "Europe/Riga",
         hour: "2-digit",
         minute: "2-digit",
         second: "2-digit",
@@ -61,8 +61,8 @@ export default function TopBar({ availability }: TopBarProps) {
     <header className="sticky top-0 z-[1000] w-full bg-[#f5f5f3]/90 backdrop-blur-sm border-b border-black/10 px-4 md:px-8 py-3">
       <div className="flex justify-between items-center">
         <div className="flex items-center space-x-4">
-          <span className="text-sm font-medium inter">Vienna, Austria</span>
-          <span className="text-sm font-light hidden md:inline inter">(GMT+2)</span>
+          <span className="text-sm font-medium inter">Riga, Latvia</span>
+          <span className="text-sm font-light hidden md:inline inter">(GMT+3)</span>
           <span className="text-sm inter">{currentTime}</span>
         </div>
 
