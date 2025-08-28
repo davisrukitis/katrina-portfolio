@@ -21,7 +21,7 @@ function MainContent() {
   const [svgElements, setSvgElements] = useState<
     { id: number; x: number; y: number; type: number; isRemoving?: boolean }[]
   >([])
-  const [availability, setAvailability] = useState<"available" | "limited" | "unavailable">("limited")
+  const [availability, setAvailability] = useState<"available" | "limited" | "unavailable">("available")
   const [isMobile, setIsMobile] = useState(false)
   const [isRearranging, setIsRearranging] = useState(false)
   const contentRef = useRef<HTMLDivElement>(null)
