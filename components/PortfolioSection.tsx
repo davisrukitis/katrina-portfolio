@@ -62,12 +62,13 @@ const portfolioData: PortfolioSectionData[] = [
       },
        {
         id: 3,
-        name: "Visuals for Valmiera theater performance",
-        description: "Theater Visual Identity Redesign",
+        name: "Valmiera Theater performance",
+        description: "Visual design package for a performance",
         year: "2025",
         images: [
           "/plakati-mockup.webp",
           "/stage.webp",
+          "/istaysafe-cup-covers.webp",
         ],
         additionalInfo:
           "For this performance reading at Valmiera Theater, I am developing a complete visual package that is still in progress. This includes poster and flyer designs, stage design, and video visuals. The project brings together graphic design, moving image, and spatial elements to shape the overall atmosphere of the performance.",
@@ -75,7 +76,7 @@ const portfolioData: PortfolioSectionData[] = [
       {
         id: 4,
         name: "Creative posters",
-        description: "Theater Visual Identity Redesign",
+        description: "Personal Project",
         year: "2025",
         images: [
           "/posters-1.webp",
