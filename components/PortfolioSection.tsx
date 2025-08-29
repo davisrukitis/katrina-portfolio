@@ -188,27 +188,6 @@ const portfolioData: PortfolioSectionData[] = [
         videoType: "youtube",
       },
       {
-        id: 16,
-        name: "3D Still Life",
-        description: "Personal Project",
-        year: "2023",
-        images: ["/3d-still-life.webp"],
-        additionalInfo:
-          "Inspired by traditional still life painting, this 3D rendering project explores composition, texture, and lighting in a digital space. I created highly detailed models with realistic materials and lighting to achieve a photorealistic quality with subtle artistic interpretation.",
-      },
-      {
-        id: 17,
-        name: "Pushed Idea – Video Combined with 3D Animation",
-        description: "Personal Project",
-        year: "2024",
-        images: ["/pushed-idea.webp"],
-        link: "https://youtu.be/75ZtEBgq5og",
-        additionalInfo:
-          "This experimental project combines live video footage with 3D animation elements to create a mixed-reality narrative. Using camera tracking and compositing techniques, I integrated abstract 3D elements that interact with the physical environment in unexpected ways.",
-        videoUrl: "https://www.youtube.com/embed/75ZtEBgq5og?si=dwWAORVi05Wi0jTG",
-        videoType: "youtube",
-      },
-      {
         id: 18,
         name: "3D Modeled and 3D Printed Earrings",
         description: "Personal Project",
