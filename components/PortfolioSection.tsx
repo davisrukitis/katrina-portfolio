@@ -68,7 +68,6 @@ const portfolioData: PortfolioSectionData[] = [
         images: [
           "/plakati-mockup.webp",
           "/stage.webp",
-          "/istaysafe-cup-covers.webp",
         ],
         additionalInfo:
           "For this performance reading at Valmiera Theater, I am developing a complete visual package that is still in progress. This includes poster and flyer designs, stage design, and video visuals. The project brings together graphic design, moving image, and spatial elements to shape the overall atmosphere of the performance.",
@@ -133,7 +132,7 @@ const portfolioData: PortfolioSectionData[] = [
         name: "Tallinas Street Creative Quarter",
         description: "Social Media and Graphic Design",
         year: "2024–2025",
-        images: ["/Mockup2.webp", "/kvartals2.webp"],
+        images: ["/Mockup2.webp", "/kvartals2.webp", "/istaysafe-cup-covers.webp"],
         additionalInfo:
           "During my time at Tallinas Street Creative Quarter, I created a wide range of graphic design works, including numerous event posters and visuals for both social media and print, as well as contributions to their website.",
       },
